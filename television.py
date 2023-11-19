@@ -6,5 +6,5 @@ class Television():
     def __init__(self):
         self.__status = False
         self.__muted = False
-        self.__volume = MIN_VOLUME
-        self.__channel = MIN_CHANNEL
+        self.__volume = Television.MIN_VOLUME
+        self.__channel = Television.MIN_CHANNEL
